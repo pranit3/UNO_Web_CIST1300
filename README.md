@@ -1,2 +1,2 @@
 # UNO_Web_CIST1300
-Perl Programs and HTML5 programs. 
+This repo consists of all the web dev code and perl programs in the course CIST1300 
