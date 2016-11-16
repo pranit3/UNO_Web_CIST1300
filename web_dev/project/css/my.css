@@ -1,0 +1,127 @@
+/*
+
+        Name    : Pranit Singh
+        Class   : CIST 1300-850
+        Assign# : 12
+        Due     : November 14, 2016
+
+        CSS for the home page of my family website!
+
+/* This modifies the color of the h1 elements */
+h1 {
+color:	red;
+}
+
+/* This modifies the font of the body elements */
+body {  
+    font:   115% "Times New Roman, serif";
+    width:  95%;
+    max-width:  1200px;
+    margin: 15px;
+}
+
+/* This modifies the location and font size of the header element */
+header {
+    text-align:     center;
+    font-variant:   small-caps;
+    background-color:   black;
+    color: red;
+}
+
+/* This modifies the location of the paragraph element */
+p {
+    text-align: left;
+    margin: 0px;
+    color: black;
+}
+
+/* This modifies the location of the nav element */
+nav {
+    text-align:     center;
+    margin-bottom:  15px;    
+}
+
+/* This modifies the font size of the nav ul element */
+nav ul {
+    font-variant:   small-caps;
+    margin: 0px;
+    list-style-type:    none;
+}
+
+/* This makes the font bold of the nav ul li element */
+nav ul li {
+    font-weight:    bold;
+    display : inline;
+    margin-top: 0px;
+    margin-bottom:  0px;
+    margin-left:    10px;
+    margin-right:   10px;
+}
+
+/* This results in no decoration so the it makes the text of the nav ul li a element to be a normal or the default text */ 
+nav ul li a {
+text-decoration:    none;
+}
+
+/* This modifies how the nav ul li a:hover element is displayed */
+nav ul li a:hover {
+    text-decoration:    none;
+    font-weight:    bold;
+    background-color:   black;
+    color:  red;
+}
+
+/* This modifies the background color of the section.information */
+section.information {
+    padding-top:    0px;
+    padding-bottom: 0px;
+    padding-left:   10px;
+    padding-right:  10px;
+}
+
+/* This modifies how the font is displayed of the section.information */
+section.information h1 {
+    font:   italic;
+    margin-top: 0px;
+    margin-bottom:  10px;  
+}
+
+/* This modifies the font and color of the footer */ 
+footer {
+    text-align: right;
+    color:  red;
+    font-size:  120%;
+    padding-top: 50px;
+    width: 65%
+}
+
+/* This modifies the first section of the home page. */
+section#family {
+    width:  100%;
+    padding-bottom: 15px;
+}
+
+/* This modifies the second section of the home page. */
+section#childhood {
+    float: left;
+    text-align: left;
+}
+
+
+/* This modifies the third section of the home page. */
+section#america {
+    border-top: 2px solid red;
+    border-bottom:  2px solid red;
+    background-color:   #ececec;
+    text-align: left;
+}
+
+/* This modifies the fourth section of the home page. */
+section#adult {
+    text-align: left;
+}
+
+/* This modifies the image elements of the home page. */
+img {
+    margin-right:   10px;
+}

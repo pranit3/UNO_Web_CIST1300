@@ -1,0 +1,82 @@
+/*
+        Name    : Pranit Singh
+        Class   : CIST 1300-850
+        Assign# : 9
+        Due     : October 22, 2016
+
+        First of many CSS!
+*/
+
+
+/* This modifies the font of the body elements */
+body {  
+    font:   115% "Times New Roman, serif;"
+}
+
+/* This modifies the location and font size of the header element */
+header {
+    text-align:     center;
+    font-variant:   small-caps;
+}
+
+/* This modifies the location of the nav element */
+nav {
+    text-align:     center;
+}
+
+/* This modifies the font size of the nav ul element */
+nav ul {
+    font-variant:   small-caps;
+}
+
+/* This makes the font bold of the nav ul li element */
+nav ul li {
+    font-weight:    bold;
+}
+
+/* This results in no decoration so the it makes the text of the nav ul li a element to be a normal or the default text /* 
+nav ul li a {
+text-decoration:    none;
+}
+
+/* This modifies how the nav ul li a:hover element is displayed */
+nav ul li a:hover {
+    text-decoration:    none;
+    font-weight:    bold;
+    background-color:   red;
+    color:  yellow;
+}
+
+/* This modifies the background color of the section.information */
+section.information {
+    background-color:   #efefef;
+}
+
+/* This modifies how the font is displayed of the section.information */
+section.information h1 {
+    font:   italic;
+    color:  rgb(0,0,255);
+}
+
+/* This modifies how the section.information aside element is displayed */
+section.information aside {
+    background-color:   silver;
+}
+
+/* This modifies the background color of the section.information th element */
+section.information th {
+    background-color:   lime;
+}
+
+/* This modifies the background color of the section.information td element */
+section.information td {
+    background-color:   yellow;
+}
+
+/* This modifies the font and color of the footer */ 
+footer {
+    text-align:     center;
+    color:  red;
+    font-size:  85%
+}
+
